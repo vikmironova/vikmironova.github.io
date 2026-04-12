@@ -1,0 +1,23 @@
+title: Viktoriya Mironova
+description: 9th grader at KAU School, Almaty — interested in dermatology, immunology, and microbiome science.
+
+author:
+  name: Viktoriya Mironova
+  location: Almaty, Kazakhstan
+
+markdown: kramdown
+highlighter: rouge
+
+navigation:
+  - title: about
+    url: /
+  - title: cv
+    url: /cv.html
+  - title: projects
+    url: /projects.html
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
