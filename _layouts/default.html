@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,7 @@
     </main>
 
     <footer class="site-footer">
-      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }} · Almaty, Kazakhstan
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}, Almaty, Kazakhstan
     </footer>
   </div>
 </body>
