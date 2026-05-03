@@ -71,6 +71,7 @@ body {
 .site-nav a.active {
   color: var(--accent);
   border-bottom-color: var(--accent);
+  text-decoration: none;
 }
 
 /* Headings */
